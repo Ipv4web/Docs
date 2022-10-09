@@ -1,5 +1,5 @@
 # python
-import urllib.request
+# import urllib.request
 import random
 username = 'USERNAME' # 1001-name
 password = 'PASSWORD'
