@@ -1,5 +1,6 @@
 # python
-# import urllib.request
+```
+import urllib.request
 import random
 username = 'USERNAME' # 1001-name
 password = 'PASSWORD'
@@ -11,4 +12,4 @@ query = urllib.request.ProxyHandler({
     'https': entry,
 })
 execute = urllib.request.build_opener(query)
-print(execute.open('https://ipinfo.io').read())
+print(execute.open('https://ipinfo.io').read())```
