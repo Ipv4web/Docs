@@ -1,3 +1,7 @@
+# CURL
+```
+curl --Proxy pr.ipv4web:8090 --Proxy-User {USERNAME}:{PASSWORD} "https://ipinfo.io"
+
 # python
 ```python
 import urllib.request
